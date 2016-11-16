@@ -1,0 +1,14 @@
+{
+  "name": "aligadosprofessores.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:clientes/liga.git",
+    "type": "git"
+  },
+  "author": "Marcos Neves <marcos.neves@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "surge ."
+  }
+}
