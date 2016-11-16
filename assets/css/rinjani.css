@@ -49,7 +49,7 @@
 }
 
 #logo {
-  
+
 }
 
 
@@ -551,13 +551,6 @@ span.navbar-trigger-close a:hover {
   width: 100%;
   height: auto;
   color: #fff;
-}
-#intro:before {
-  position: absolute;
-  content: " ";
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.8);
 }
 @media (min-width: 1280px) {
   #intro {
