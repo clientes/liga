@@ -9,6 +9,7 @@
   "author": "Marcos Neves <marcos.neves@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "live-server .",
     "deploy": "surge ."
   }
 }

@@ -646,11 +646,12 @@ span.navbar-trigger-close a:hover {
 /*---------------------------------------------------------------------*/
 /*  6. WHO WE ARE SECTION
 /*---------------------------------------------------------------------*/
-#who-we-are {
-  background-image: url(../img/mika.png), url(../img/toid.png);
-  background-position: bottom left, bottom right;
-  background-repeat: no-repeat;
-  background-size: contain;
+@media (min-width: 768px) {
+  #who-we-are {
+    background-image: url(../img/brasao-bg.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+  }
 }
 
 #who-we-are .carousel-container {
@@ -816,7 +817,9 @@ span.navbar-trigger-close a:hover {
 
 #meet-the-team img {
   background-image: url(../img/logo.png);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   border: 1px dashed silver;
 }
 
